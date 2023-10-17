@@ -51,6 +51,9 @@ html {
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
+.biography-container  h2 {
+    text-align: center;
+}
 .quotes-container {
     background-color: #DDD;
     padding: 30px;
