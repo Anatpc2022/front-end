@@ -7,7 +7,7 @@
     font-size: 1.03em;
 }
 body {
-    background-color: #faf8e3;
+    background-color: #c2f0f0;
 }
 h1,h2,h3,h4,h5 {
     color: #333;
@@ -29,7 +29,7 @@ textarea {
 .header {
     height: 160px;
     padding: 20px;
-    background-color: #a8990b;
+    background-color: #24b8b8;
 }
 .header h3 {
     font-size: 1.5em;
@@ -48,9 +48,9 @@ textarea {
     height: 45px;
 }
 .form-header p {
-    color: #756a08;
+    color: #24b8b8;
     font-weight: bold;
-    border-bottom: 1px solid #756a08;
+    border-bottom: 1px solid #24b8b8;
     width: 100px;
     text-align: center;
     margin: auto;
@@ -90,7 +90,7 @@ textarea {
     margin-bottom: 15px;
 }
 .btn-submit {
-    background-color: #a8990b;
+    background-color: #24b8b8;
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
@@ -101,7 +101,7 @@ textarea {
 }
 .btn-submit:hover {
     background-color: #fff;
-    border-color: #a8990b;
-    color: #a8990b;
+    border-color: #24b8b8;
+    color: #24b8b8;
 
 }
