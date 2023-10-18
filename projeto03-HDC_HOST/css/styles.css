@@ -253,3 +253,112 @@ footer p#foot-name {
     font-size: .5em;
     font-weight: bold;
 }
+
+/* Responsividade */
+
+/* small laptops a partir de 1100px */
+@media (min-width: 992px)and (max-width: 1200px) {
+    .plans-container {
+        width: 95%;
+    }
+    .plan {
+        margin: 0 5px;
+    }
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    .main-banner p {
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+/* celular */
+@media (min-width: 425px) and (max-width: 768px) {
+
+    .navbar-items li {
+       font-size: 12px;
+       margin-left: 10px; 
+    }
+    .main-banner p {
+        padding: 0 2rem;
+    }    
+    .services-container ul {
+        flex-direction: column;
+    }    
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .plan {
+        width: 96%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+    .searchdomain-container p {
+        font-size: 20px;
+    }
+    .searchdomain-container input[type="text"] {
+        width: 85%;
+    }
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+    .contact-container input, .contact-container textarea {
+        width: 96%;
+    }
+}
+/* Pequenas telas */
+@media (min-width: 320px) and (max-width: 400px) {
+    .navbar-container {
+        padding: 0px 10px;
+    }
+
+    .logo {
+        width: 35px;
+        margin-bottom: 0px;
+    }
+    .navbar-items li {
+        font-size: 10px;
+        margin-left: 10px; 
+     }
+     .main-banner h1 {
+        font-size: 45px;
+    }
+     .main-banner p {
+        font-size: 25px;
+         padding: 0 1rem;
+     }
+     .services-container ul {
+        flex-direction: column;
+    }    
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+     .searchdomain-container h2 {
+         font-size: 26px;
+     }
+     .searchdomain-container p {
+         font-size: 19px;
+     }
+     .searchdomain-container input[type="text"] {
+        font-size: 13px;
+    }
+    .searchdomain-container input[type="submit"] {              
+        font-size: 14px;
+    }
+     .contact-container {
+         padding: 3rem 2rem;
+     }
+     .contact-container input, .contact-container textarea {
+         width: 96%;
+     } 
+}
